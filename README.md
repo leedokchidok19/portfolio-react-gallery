@@ -1,3 +1,33 @@
+# 폴더 구조
+```txt
+src/
+  ├── components/
+  │     ├── Button.jsx
+  │     ├── Button.css
+  │     ├── Header.jsx
+  │     └── Header.css
+  ├── pages/
+  │     ├── Home.jsx
+  │     ├── Home.css
+  │     ├── About.jsx
+  │     └── About.css
+  ├── App.jsx
+  └── App.css
+```
+
+1. 컴포넌트와 동일한 디렉토리에 위치
+  * 장점
+    + 관련 파일들이 함께 있어 찾기 쉬움
+    + 컴포넌트와 스타일의 관계가 명확함
+    + 컴포넌트 재사용이 용이
+2. 모듈화된 CSS 사용 (권장)
+  * 장점
+    + CSS 클래스명 충돌을 방지(동일 클래스명인 경우)
+    + 컴포넌트 스코프가 명확
+    + Create React App 등 대부분의 React 개발 환경에서 기본 지원
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
